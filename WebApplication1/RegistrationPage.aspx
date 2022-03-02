@@ -105,7 +105,7 @@
                         </asp:DropDownList>
                     </td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="DropDownListCountry" ErrorMessage="CountryNameRequired" ForeColor="Red"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="DropDownListCountry" ErrorMessage="CountryNameRequired" ForeColor="Red" InitialValue="Select Country"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
